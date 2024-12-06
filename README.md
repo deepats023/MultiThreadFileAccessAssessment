@@ -24,5 +24,4 @@ The MultiThreadFileAccess application demonstrates concurrent updates of a file 
    ```
    docker run -i -v c:/junk:/log deepaliap/multithreadfileaccessapp 
    ```
-
-3. File is generated in c:/junk
+3.File is generated in c:/junk
