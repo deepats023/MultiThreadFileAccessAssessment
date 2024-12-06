@@ -2,8 +2,8 @@
 The MultiThreadFileAccess application demonstrates concurrent updates of a file in multithreaded environment.
 
 ## File Structure ##
-MultiThreadFileAccess: This folder consists of coding files, project, tests and solution files.
-Results: This folder consists of DeveloperNotes and sample results file .
+ ###MultiThreadFileAccess###: This folder consists of coding files, project, tests and solution files.
+ - Results: This folder consists of DeveloperNotes and sample results file .
 
 ## Usage ##
 
