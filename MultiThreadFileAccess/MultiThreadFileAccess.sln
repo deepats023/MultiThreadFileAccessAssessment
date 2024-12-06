@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadFileAccess", "MultiThreadFIleAccess\MultiThreadFileAccess.csproj", "{6C430E9A-68C8-4072-B4CA-65A8964AF8EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{68C3E1A8-B0CF-49F4-BDD7-E8E7D9FD2443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadFileAccess.Tests", "Tests\MultiThreadFileAccess.Tests\MultiThreadFileAccess.Tests.csproj", "{895BB262-FA78-4D2E-BC55-8E989912633F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{018383EF-D728-4C24-A914-192BCE640F76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C430E9A-68C8-4072-B4CA-65A8964AF8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C430E9A-68C8-4072-B4CA-65A8964AF8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C430E9A-68C8-4072-B4CA-65A8964AF8EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C430E9A-68C8-4072-B4CA-65A8964AF8EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895BB262-FA78-4D2E-BC55-8E989912633F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895BB262-FA78-4D2E-BC55-8E989912633F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895BB262-FA78-4D2E-BC55-8E989912633F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895BB262-FA78-4D2E-BC55-8E989912633F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{895BB262-FA78-4D2E-BC55-8E989912633F} = {68C3E1A8-B0CF-49F4-BDD7-E8E7D9FD2443}
+	EndGlobalSection
+EndGlobal
